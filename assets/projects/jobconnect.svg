@@ -1,0 +1,75 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a2a2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff006e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="200" fill="url(#bgGradient)"/>
+  
+  <!-- Header Bar -->
+  <rect x="0" y="0" width="400" height="30" fill="url(#accentGradient)" opacity="0.8"/>
+  <text x="20" y="20" font-family="Orbitron" font-size="12" font-weight="600" fill="#ffffff">JobConnect</text>
+  
+  <!-- Search Bar -->
+  <rect x="20" y="40" width="200" height="25" rx="12" fill="url(#cardGradient)" stroke="#00d4ff" stroke-width="1"/>
+  <text x="30" y="55" font-family="Inter" font-size="8" fill="#888">Search jobs, companies...</text>
+  <circle cx="205" cy="52" r="8" fill="#00d4ff" opacity="0.8"/>
+  <path d="M 200 47 L 210 57" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- Filter Buttons -->
+  <rect x="240" y="42" width="40" height="21" rx="10" fill="none" stroke="#00d4ff" stroke-width="1"/>
+  <text x="255" y="54" font-family="Inter" font-size="7" fill="#00d4ff">Remote</text>
+  
+  <rect x="290" y="42" width="40" height="21" rx="10" fill="none" stroke="#ff006e" stroke-width="1"/>
+  <text x="305" y="54" font-family="Inter" font-size="7" fill="#ff006e">Full-time</text>
+  
+  <rect x="340" y="42" width="40" height="21" rx="10" fill="none" stroke="#888" stroke-width="1"/>
+  <text x="355" y="54" font-family="Inter" font-size="7" fill="#888">Intern</text>
+  
+  <!-- Job Cards -->
+  <!-- Card 1 -->
+  <rect x="20" y="80" width="170" height="50" rx="8" fill="url(#cardGradient)" stroke="#00d4ff" stroke-width="1" opacity="0.8"/>
+  <text x="30" y="95" font-family="Inter" font-size="10" font-weight="600" fill="#ffffff">Frontend Developer</text>
+  <text x="30" y="105" font-family="Inter" font-size="7" fill="#00d4ff">TechCorp Solutions</text>
+  <text x="30" y="115" font-family="Inter" font-size="6" fill="#aaa">Remote • ₹8-12 LPA</text>
+  <rect x="140" y="100" width="40" height="15" rx="7" fill="#00d4ff" opacity="0.8"/>
+  <text x="155" y="109" font-family="Inter" font-size="6" fill="#000">Apply</text>
+  
+  <!-- Card 2 -->
+  <rect x="210" y="80" width="170" height="50" rx="8" fill="url(#cardGradient)" stroke="#ff006e" stroke-width="1" opacity="0.8"/>
+  <text x="220" y="95" font-family="Inter" font-size="10" font-weight="600" fill="#ffffff">Data Scientist</text>
+  <text x="220" y="105" font-family="Inter" font-size="7" fill="#ff006e">AI Innovations</text>
+  <text x="220" y="115" font-family="Inter" font-size="6" fill="#aaa">Bangalore • ₹15-20 LPA</text>
+  <rect x="330" y="100" width="40" height="15" rx="7" fill="#ff006e" opacity="0.8"/>
+  <text x="345" y="109" font-family="Inter" font-size="6" fill="#fff">Apply</text>
+  
+  <!-- Card 3 -->
+  <rect x="20" y="140" width="170" height="50" rx="8" fill="url(#cardGradient)" stroke="#888" stroke-width="1" opacity="0.6"/>
+  <text x="30" y="155" font-family="Inter" font-size="10" font-weight="600" fill="#ffffff">Backend Engineer</text>
+  <text x="30" y="165" font-family="Inter" font-size="7" fill="#888">StartupHub</text>
+  <text x="30" y="175" font-family="Inter" font-size="6" fill="#aaa">Hybrid • ₹6-10 LPA</text>
+  <rect x="140" y="160" width="40" height="15" rx="7" fill="#888" opacity="0.6"/>
+  <text x="155" y="169" font-family="Inter" font-size="6" fill="#fff">Apply</text>
+  
+  <!-- Card 4 -->
+  <rect x="210" y="140" width="170" height="50" rx="8" fill="url(#cardGradient)" stroke="#ffab00" stroke-width="1" opacity="0.8"/>
+  <text x="220" y="155" font-family="Inter" font-size="10" font-weight="600" fill="#ffffff">ML Engineer</text>
+  <text x="220" y="165" font-family="Inter" font-size="7" fill="#ffab00">GlobalTech Inc</text>
+  <text x="220" y="175" font-family="Inter" font-size="6" fill="#aaa">Remote • ₹12-18 LPA</text>
+  <rect x="330" y="160" width="40" height="15" rx="7" fill="#ffab00" opacity="0.8"/>
+  <text x="345" y="169" font-family="Inter" font-size="6" fill="#000">Apply</text>
+  
+  <!-- Stats -->
+  <text x="340" y="20" font-family="Inter" font-size="6" fill="#ffffff" opacity="0.7">2,847 jobs • 156 companies</text>
+</svg>

@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nayan Raj - Satellite Builder, AI Explorer, & Meme-Powered Machine. CS Student at SRM Chennai building the future.">
+    <meta name="keywords" content="Nayan Raj, Computer Science, AI, ML, Satellite Development, SRMSAT, Computer Vision, Portfolio">
+    <meta name="author" content="Nayan Raj">
+    <title>Nayan Raj | Satellite Builder, AI Explorer</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="terminal-prompt">$</span> nayan.exe
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="stars"></div>
+            <div class="satellite-trails"></div>
+            <canvas id="pixelTrails"></canvas>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="terminal-greeting">
+                    <span class="terminal-prompt">nayan@portfolio:~$</span>
+                    <span class="typed-text" id="typedText"></span>
+                    <span class="cursor">|</span>
+                </div>
+                
+                <div class="hero-main">
+                    <h1 class="glitch" data-text="Yo, I'm Nayan">
+                        Yo, I'm Nayan
+                    </h1>
+                    <p class="hero-subtitle">
+                        <span class="highlight">Debugging life, one repo at a time.</span>
+                    </p>
+                </div>
+                
+                <div class="hero-cta">
+                    <a href="#projects" class="cta-btn primary">
+                        <i data-feather="folder"></i>
+                        Projects
+                    </a>
+                    <a href="#contact" class="cta-btn tertiary">
+                        <i data-feather="message-circle"></i>
+                        Let's Talk
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-avatar">
+                <div class="avatar-container">
+                    <img src="assets/nayan-photo.jpg" alt="Nayan Raj" class="avatar-img">
+                    <div class="avatar-glow"></div>
+                    <div class="avatar-scan"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="terminal-prompt">~/projects$</span> ls -la
+                </h2>
+                <p class="section-subtitle">Building the future, one commit at a time</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Waste Detection Project -->
+                <div class="project-card" data-tech="opencv,python,satellite">
+                    <div class="project-image">
+                        <img src="assets/projects/aquadoc.png" alt="AquaDoc Project Preview" loading="lazy">
+                    </div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i data-feather="radio"></i>
+                        </div>
+                        <div class="project-badges">
+                            <span class="badge tech">OpenCV</span>
+                            <span class="badge tech">GEE</span>
+                            <span class="badge personality">earth-saver</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">AquaDoc - Water Waste Detection</h3>
+                    <p class="project-description">
+                        Built an automatic waste detection system using OpenCV & Google Earth Engine for environmental monitoring and research.
+                    </p>
+                    <div class="project-features">
+                        <span>• NDWI & classification algorithms</span>
+                        <span>• Real-time satellite image processing</span>
+                        <span>• Environmental monitoring dashboard</span>
+                    </div>
+                    <div class="project-footer">
+                        <a href="https://aquadocv2-cfjcnhbeqct2gpcpwvezgv.streamlit.app" target="_blank" class="project-link">
+                            <i data-feather="external-link"></i>
+                            Live Demo
+                        </a>
+                        <a href="#" class="project-link">
+                            <i data-feather="github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                    <div class="project-easter-egg" title="Fun fact: Detected 25+ global monitoring sites!">
+                        Click for easter egg!
+                    </div>
+                </div>
+
+                <!-- Coral Reef Detection -->
+                <div class="project-card" data-tech="yolov8,tensorflow,streamlit">
+                    <div class="project-image">
+                        <img src="assets/projects/coral-reef.svg" alt="Coral Reef AI Classifier Preview" loading="lazy">
+                    </div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i data-feather="eye"></i>
+                        </div>
+                        <div class="project-badges">
+                            <span class="badge tech">YOLOv8</span>
+                            <span class="badge tech">TensorFlow</span>
+                            <span class="badge personality">marine-researcher</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Coral Reef AI Classifier</h3>
+                    <p class="project-description">
+                        YOLOv8 and deep learning-based system to detect and classify six coral species for marine research applications.
+                    </p>
+                    <div class="project-features">
+                        <span>• Real-time underwater image processing</span>
+                        <span>• Custom training pipeline</span>
+                        <span>• Streamlit dashboard with dataset tools</span>
+                    </div>
+                    <div class="project-footer">
+                        <a href="#" class="project-link">
+                            <i data-feather="github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                    <div class="project-easter-egg" title="94.2% detection accuracy achieved!">
+                        Click for easter egg!
+                    </div>
+                </div>
+
+                <!-- JobConnect -->
+                <div class="project-card" data-tech="react,typescript,postgresql">
+                    <div class="project-image">
+                        <img src="assets/projects/jobconnect.svg" alt="JobConnect Job Board Preview" loading="lazy">
+                    </div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i data-feather="briefcase"></i>
+                        </div>
+                        <div class="project-badges">
+                            <span class="badge tech">React</span>
+                            <span class="badge tech">TypeScript</span>
+                            <span class="badge personality">career-hacker</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">JobConnect - Job Board Platform</h3>
+                    <p class="project-description">
+                        Glassdoor-inspired job portal for Indian students with secure authentication, advanced filters, and verified listings.
+                    </p>
+                    <div class="project-features">
+                        <span>• Secure auth & advanced filters</span>
+                        <span>• Verified listings & global opportunities</span>
+                        <span>• PostgreSQL with Drizzle ORM</span>
+                    </div>
+                    <div class="project-footer">
+                        <a href="#" class="project-link">
+                            <i data-feather="github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                    <div class="project-easter-egg" title="Built with PERN stack and modern deployment!">
+                        Click for easter egg!
+                    </div>
+                </div>
+
+                <!-- Battleship Bangers Game -->
+                <div class="project-card" data-tech="python,pygame,arcade">
+                    <div class="project-image">
+                        <img src="assets/projects/battleship-bangers.png" alt="Battleship Bangers Space Shooter Preview" loading="lazy">
+                    </div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i data-feather="play"></i>
+                        </div>
+                        <div class="project-badges">
+                            <span class="badge tech">Python</span>
+                            <span class="badge tech">Pygame</span>
+                            <span class="badge personality">game-dev</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Battleship Bangers - Space Shooter</h3>
+                    <p class="project-description">
+                        A 2D arcade rocket game built with Python and Pygame featuring enemy invaders, power-ups, and progressive difficulty levels.
+                    </p>
+                    <div class="project-features">
+                        <span>• Real-time collision detection & physics</span>
+                        <span>• Dynamic enemy AI and spawn patterns</span>
+                        <span>• Progressive level system with power-ups</span>
+                    </div>
+                    <div class="project-footer">
+                        <a href="#" class="project-link">
+                            <i data-feather="github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                    <div class="project-easter-egg" title="Built with classic arcade game mechanics!">
+                        Click for easter egg!
+                    </div>
+                </div>
+
+                <!-- Airline Analytics -->
+                <div class="project-card" data-tech="streamlit,plotly,gpt4">
+                    <div class="project-image">
+                        <img src="assets/projects/flydemand.png" alt="FlyDemand Airline Analytics Preview" loading="lazy">
+                    </div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i data-feather="trending-up"></i>
+                        </div>
+                        <div class="project-badges">
+                            <span class="badge tech">Streamlit</span>
+                            <span class="badge tech">GPT-4o</span>
+                            <span class="badge personality">data-wizard</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">FLYDemand - Airline Analytics</h3>
+                    <p class="project-description">
+                        AI-powered dashboard analyzing Australian flight trends with real-time data integration and GPT-4o-mini powered insights.
+                    </p>
+                    <div class="project-features">
+                        <span>• Real-time aviation data integration</span>
+                        <span>• 40% reduced API load via caching</span>
+                        <span>• GPT-4o-mini powered insights</span>
+                    </div>
+                    <div class="project-footer">
+                        <a href="https://56aaxnztep2g8qneefs6n6.streamlit.app" target="_blank" class="project-link">
+                            <i data-feather="external-link"></i>
+                            Live Demo
+                        </a>
+                        <a href="#" class="project-link">
+                            <i data-feather="github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                    <div class="project-easter-egg" title="Boosted processing efficiency by 35%!">
+                        Click for easter egg!
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="terminal-prompt">~/about$</span> whoami
+                </h2>
+                <p class="section-subtitle">Computer Science Student & Technology Innovator</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <h3>Sometimes I train neural nets. Sometimes I train shoulders. Either way, I'm building.</h3>
+                        <p>
+                            I'm a 3rd-year Computer Science student at SRM Chennai, specializing in AI, ML, Computer Vision, 
+                            and Satellite Development. My academic journey is complemented by hands-on experience in cutting-edge 
+                            technology projects and professional internships.
+                        </p>
+                        <p>
+                            My passion lies in creating innovative solutions that bridge the gap between theoretical knowledge 
+                            and real-world applications, constantly pushing the boundaries of what's possible with technology.
+                        </p>
+                        
+                        <div class="ongoing-projects">
+                            <h4 style="color: #00d4ff; font-family: 'Orbitron', monospace; margin-bottom: 15px;">Ongoing Projects</h4>
+                            <ul style="color: #00d4ff; line-height: 1.8;">
+                                <li>Developing Linux-based OS for microcontrollers (plug-and-play architecture)</li>
+                                <li>Building AI-based operating system with machine learning integration</li>
+                                <li>Creating specialized development platform for game developers</li>
+                                <li>Advancing skills in DevOps, Game Development, and Cybersecurity</li>
+                                <li>Exploring Quantitative Finance applications and algorithmic trading</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Work Experience Section -->
+                    <div class="work-experience">
+                        <h4>Work Experience</h4>
+                        <div class="experience-item">
+                            <div class="experience-header">
+                                <h5>Summer Intern - Ocean Electronics</h5>
+                                <span class="experience-company">National Institute of Ocean Technology</span>
+                            </div>
+                            <div class="experience-details">
+                                <p>Developed Mission Control System for Autonomous Surface Vehicle (ASV)</p>
+                                <ul>
+                                    <li>Built Python-based GUI for live GPS data and sensor visualization</li>
+                                    <li>Achieved 97%+ GPS accuracy with real-time path tracking</li>
+                                    <li>Integrated LoRa modules, GPS sensors, and depth sensors</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="experience-item">
+                            <div class="experience-header">
+                                <h5>Team Member - Avionics Domain</h5>
+                                <span class="experience-company">SRMSAT, SRM Institute of Technology</span>
+                            </div>
+                            <div class="experience-details">
+                                <p>Contributing to CubeSat development for Indian subcontinent monitoring</p>
+                                <ul>
+                                    <li>Engineered onboard computing (OBC) subsystem</li>
+                                    <li>Integrated avionics with structural, thermal, and communications systems</li>
+                                    <li>Mentored by Ex-ISRO Scientist Mr. Loganathan Muthusamy</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="fun-facts">
+                        <h4>Professional Highlights</h4>
+                        <div class="facts-grid">
+                            <div class="fact-item">
+                                <i data-feather="code"></i>
+                                <span>15+ Technical Projects</span>
+                            </div>
+                            <div class="fact-item">
+                                <i data-feather="briefcase"></i>
+                                <span>Professional Internship at NIOT</span>
+                            </div>
+                            <div class="fact-item">
+                                <i data-feather="book"></i>
+                                <span>AI/ML Research Focus</span>
+                            </div>
+                            <div class="fact-item">
+                                <i data-feather="cpu"></i>
+                                <span>Embedded Systems Expertise</span>
+                            </div>
+                            <div class="fact-item">
+                                <i data-feather="users"></i>
+                                <span>Team Leadership Experience</span>
+                            </div>
+                            <div class="fact-item">
+                                <i data-feather="target"></i>
+                                <span>Full-Stack Development</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="terminal-prompt">~/skills$</span> cat tech_stack.json
+                </h2>
+                <p class="section-subtitle">My digital arsenal</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-tooltip="Primary programming language">
+                            <i data-feather="code"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item" data-tooltip="Object-oriented programming">
+                            <i data-feather="coffee"></i>
+                            <span>Java</span>
+                         
+                        </div>
+                        <div class="skill-item" data-tooltip="Web development">
+                            <i data-feather="globe"></i>
+                            <span>JavaScript</span>
+                          
+                        </div>
+                        <div class="skill-item" data-tooltip="System programming">
+                            <i data-feather="cpu"></i>
+                            <span>C++</span>
+                        
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>AI/ML & Computer Vision</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-tooltip="Computer vision and image processing">
+                            <i data-feather="eye"></i>
+                            <span>OpenCV</span>
+                         
+                        </div>
+                        <div class="skill-item" data-tooltip="Deep learning frameworks">
+                            <i data-feather="zap"></i>
+                            <span>TensorFlow</span>
+                          
+                        </div>
+                        <div class="skill-item" data-tooltip="Machine learning algorithms">
+                            <i data-feather="bar-chart-2"></i>
+                            <span>Scikit-learn</span>
+                       
+                        </div>
+                        <div class="skill-item" data-tooltip="Digital image processing techniques">
+                            <i data-feather="image"></i>
+                            <span>Digital Image Processing</span>
+                       
+                        </div>
+                        <div class="skill-item" data-tooltip="Satellite image analysis">
+                            <i data-feather="map"></i>
+                            <span>Google Earth Engine</span>
+                        
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Frameworks & Tools</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-tooltip="Data science web applications">
+                            <i data-feather="layout"></i>
+                            <span>Streamlit</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        <div class="skill-item" data-tooltip="Modern web development">
+                            <i data-feather="monitor"></i>
+                            <span>React</span>
+                     
+                        </div>
+                        <div class="skill-item" data-tooltip="Backend development">
+                            <i data-feather="server"></i>
+                            <span>Node.js</span>
+                  
+                        </div>
+                        <div class="skill-item" data-tooltip="Database management">
+                            <i data-feather="database"></i>
+                            <span>PostgreSQL</span>
+                
+                        </div>
+                        <div class="skill-item" data-tooltip="GUI application development">
+                            <i data-feather="layers"></i>
+                            <span>PyQt5</span>
+                    
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Systems</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-tooltip="Operating systems and command line">
+                            <i data-feather="terminal"></i>
+                            <span>Linux</span>
+              
+                        </div>
+                        <div class="skill-item" data-tooltip="Version control and collaboration">
+                            <i data-feather="git-branch"></i>
+                            <span>Git</span>
+             
+                        </div>
+                        <div class="skill-item" data-tooltip="Microcontroller programming">
+                            <i data-feather="cpu"></i>
+                            <span>Embedded Systems</span>
+      
+                        </div>
+                        <div class="skill-item" data-tooltip="Hardware interfacing">
+                            <i data-feather="cpu"></i>
+                            <span>Arduino</span>
+            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Other Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-tooltip="Information security practices">
+                            <i data-feather="shield"></i>
+                            <span>Cybersecurity</span>
+                     
+                        </div>
+                        <div class="skill-item" data-tooltip="Game development with Python">
+                            <i data-feather="play"></i>
+                            <span>Game Development</span>
+                 
+                        </div>
+                        <div class="skill-item" data-tooltip="Robotics and automation">
+                            <i data-feather="settings"></i>
+                            <span>Robotics</span>
+                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="terminal-prompt">~/certs$</span> ls -la achievements/
+                </h2>
+                <p class="section-subtitle">Professional certifications and achievements</p>
+            </div>
+            
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i data-feather="award"></i>
+                    </div>
+                    <h3>Arduino Certificate</h3>
+                    <p>Crash Course Arduino and Microcontroller Development</p>
+                    <div class="certificate-details">
+                        <span class="cert-issuer">Udemy</span>
+                        <span class="cert-date">2024</span>
+                    </div>
+                    <a href="assets/arduino_certficate.pdf" target="_blank" class="cert-link">
+                        <i data-feather="external-link"></i>
+                        View Certificate
+                    </a>
+                </div>
+                
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i data-feather="database"></i>
+                    </div>
+                    <h3>Computer Vision</h3>
+                    <p>YOLOv8 & YOLO11: Custom Object Detection & Web Apps 2025</p>
+                    <div class="certificate-details">
+                        <span class="cert-issuer">Udemy</span>
+                        <span class="cert-date">2024</span>
+                    </div>
+                    <a href="assets/Yolo_certificate.pdf" target="_blank" class="cert-link">
+                        <i data-feather="external-link"></i>
+                        View Certificate
+                    </a>
+                </div>
+                
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i data-feather="code"></i>
+                    </div>
+                    <h3>Cybersecurity</h3>
+                    <p>Complete Ethical Hacking Bootcamp</p>
+                    <div class="certificate-details">
+                        <span class="cert-issuer">Udemy</span>
+                        <span class="cert-date">2023</span>
+                    </div>
+                    <a href="assets/ethical_hacking_certificate.pdf" target="_blank" class="cert-link">
+                        <i data-feather="external-link"></i>
+                        View Certificate
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="terminal-prompt">~/contact$</span> ping nayan.dev
+                </h2>
+                <p class="section-subtitle">Got a question? Or a playlist rec? Drop it.</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i data-feather="mail"></i>
+                        <h3>Email</h3>
+                        <p>nayanraj083@gmail.com</p>
+                        <a href="mailto:nayanraj083@gmail.com" class="contact-link">Send Message</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i data-feather="phone"></i>
+                        <h3>Phone</h3>
+                        <p>+91 9389271756</p>
+                        <a href="tel:+919389271756" class="contact-link">Call Me</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i data-feather="map-pin"></i>
+                        <h3>Location</h3>
+                        <p>Chennai, India</p>
+                        <span class="contact-link">Available for opportunities</span>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Your message, internship opportunity, or even your favorite anime recommendation..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <i data-feather="send"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://github.com/nayanraj" target="_blank" class="social-link">
+                    <i data-feather="github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com/in/nayanraj" target="_blank" class="social-link">
+                    <i data-feather="linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://www.instagram.com/_nynraj" target="_blank" class="social-link">
+                    <i data-feather="instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="assets/resume.pdf" target="_blank" class="social-link">
+                    <i data-feather="file-text"></i>
+                    <span>Resume</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Nayan Raj. Built with passion and endless cups of coffee.</p>
+                    <p class="footer-quote">"Sometimes I train neural nets. Sometimes I train shoulders. Either way, I'm building."</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#certificates">Certificates</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Terminal Easter Egg -->
+    <div id="terminal" class="terminal-overlay" style="display: none;">
+        <div class="terminal-container">
+            <div class="terminal-header">
+                <span>nayan@portfolio:~$</span>
+                <button class="terminal-close" onclick="closeTerminal()">&times;</button>
+            </div>
+            <div class="terminal-content" id="terminalContent">
+                <div class="terminal-line">Welcome to Nayan's secret terminal!</div>
+                <div class="terminal-line">Available commands: help, about, skills, meme, quote, clear, exit</div>
+                <div class="terminal-line">Type 'help' for more commands...</div>
+            </div>
+            <div class="terminal-input-line">
+                <span class="terminal-prompt">$</span>
+                <input type="text" id="terminalInput" class="terminal-input" autofocus>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script>
+        // Initialize Feather Icons
+        feather.replace();
+    </script>
+</body>
+</html>

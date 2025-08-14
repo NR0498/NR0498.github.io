@@ -1,0 +1,132 @@
+Create a futuristic, Gen Z-coded personal portfolio for a tech-savvy, multi-hyphenate personality named Nayan, a 3rd-year Computer Science student from SRM Chennai. He’s deeply involved in AI, ML, Computer Vision, Digital Image Processing, and Satellite Development (SRM SAT under ex-ISRO guidance). He’s also on a journey of fitness, emotional intelligence, independence, and is a pop-culture nerd with ADHD energy.
+
+Make the design reflect a clean, cyberpunk-aesthetic meets geek chaos vibe, while still being professional enough for 20+ LPA internships and ₹50k+ research gigs. It should reflect creativity, intelligence, humor, and ambition.
+
+💻 Hero Section:
+Animated background: space, stars, satellite signals, or pixel trails.
+
+Stylized avatar or glitch-effect photo of Nayan.
+
+Tagline:
+
+css
+Copy
+Edit
+👋 Yo, I’m Nayan —  
+Satellite builder, AI explorer, meme-powered machine.  
+Debugging life, one repo at a time.
+Call-to-Action buttons:
+
+🚀 Projects
+
+📜 Resume
+
+☕ Let’s Talk
+
+Optional: Console/Terminal-style greeting.
+
+🎨 Visuals & Theme:
+Color Palette:
+
+Primary: Midnight Blue / Deep Indigo
+
+Accent: Neon Teal & Glitch Pink
+
+Secondary: White & Muted Gray
+
+Fonts:
+
+Header: Orbitron, Space Grotesk, or Poppins
+
+Body: Inter, Fira Code, or JetBrains Mono
+
+Mode Toggle: Dark mode default, with optional toggle
+
+Vibe Words: Futuristic, Hacker, Nerdy-Playful, ADHD-friendly, Smooth AF.
+
+🧠 Sections:
+🔍 Projects
+Grid or dashboard layout with hover reveals.
+
+Short quirky descriptions.
+
+Use badges/tags for tech stack + personality:
+
+opencv, streamlit, ai, adhd-energy, gymbro-at-7PM, srmsat, budget-dev, etc.
+
+Easter eggs: hover text or hidden keystrokes that unlock memes/quotes.
+
+👨‍🚀 About Me
+Use a timeline format to show growth:
+
+Year 1: Learning Python
+
+Year 2: Image Processing & SRM SAT
+
+Year 3: Internship @ NIOT + prepping for 20+ LPA life
+
+Add fun facts like:
+
+🏋️‍♂️ Gym @ 7PM is therapy
+
+🎨 I sketch tech + trauma
+
+🧠 Obsessed with becoming a polymath
+
+Personal Quote:
+
+“Sometimes I train neural nets. Sometimes I train shoulders. Either way, I’m building.”
+
+🧠 Skills/Tech Stack
+Logos with glow animation on hover
+
+Add witty one-liners under each:
+
+Python 🐍 → "My therapy language."
+
+OpenCV 👁️ → "Seeing pixels in 4K HD emotion."
+
+Streamlit → "Built dashboards hotter than my laptop CPU."
+
+📈 Timeline / Resume
+Vertical animated timeline:
+
+Milestones: SRM SAT, Internship at NIOT, Full-Stack Projects, AI Research Goals
+
+Add icons/emojis per milestone
+
+CTA to view/download PDF resume
+
+🎮 Extras / Interests
+Pop culture section (Spider-Verse, Anime, Movies)
+
+Doodle gallery / Sketch pad
+
+Last Spotify track or playlist visualizer
+
+Interactive fun: clicking Konami Code triggers a JS terminal easter egg
+
+📬 Contact
+Chill form with note like:
+
+“Got a question? Or a playlist rec? Drop it.”
+
+Linked socials (GitHub, LinkedIn, Notion, maybe Threads or Twitter)
+
+🧪 Tech Stack Suggestions (to build it):
+Frontend: Next.js + Tailwind CSS
+
+Animations: Framer Motion, Typed.js, GSAP
+
+Deployment: Vercel or Netlify
+
+Extras: React Icons, Three.js (optional), Spotify API, ScrollTrigger
+
+Optional Add-ons:
+
+Loading screen: terminal typing out "Booting up Nayan.exe..."
+
+Chatbot assistant with sarcastic energy that roasts or helps users
+
+Toggle between "🔥 Career Mode" and "🧠 Nerd Mode"
+
